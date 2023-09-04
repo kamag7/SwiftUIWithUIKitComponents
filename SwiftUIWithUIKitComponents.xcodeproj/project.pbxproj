@@ -49,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		511B34322AA601250045E0C5 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		514545DE2A97845F0097AAEC /* SwiftUIWithUIKitComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWithUIKitComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		514545E12A97845F0097AAEC /* SwiftUIWithUIKitComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithUIKitComponentsApp.swift; sourceTree = "<group>"; };
 		514545E52A9784600097AAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		519DFC652A9F1D7600EFF9B4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		519DFC672A9F482500EFF9B4 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		519DFC692A9F483A00EFF9B4 /* DetailMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieModel.swift; sourceTree = "<group>"; };
-		519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		519DFC6D2A9F6E3500EFF9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		519DFC6E2A9F71D800EFF9B4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		51F9C6D42A98900C00C9A865 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
@@ -213,8 +213,8 @@
 		519DFC6B2A9F6CDA00EFF9B4 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */,
 				519DFC6E2A9F71D800EFF9B4 /* Environment.swift */,
+				511B34322AA601250045E0C5 /* Config.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -418,7 +418,7 @@
 /* Begin XCBuildConfiguration section */
 		514546002A9784600097AAEC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */;
+			baseConfigurationReference = 511B34322AA601250045E0C5 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -479,7 +479,7 @@
 		};
 		514546012A9784600097AAEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */;
+			baseConfigurationReference = 511B34322AA601250045E0C5 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
