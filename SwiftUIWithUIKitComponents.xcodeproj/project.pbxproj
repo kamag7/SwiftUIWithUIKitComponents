@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		514545E22A97845F0097AAEC /* SwiftUIWithUIKitComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514545E12A97845F0097AAEC /* SwiftUIWithUIKitComponentsApp.swift */; };
-		514545E42A97845F0097AAEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514545E32A97845F0097AAEC /* ContentView.swift */; };
 		514545E62A9784600097AAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514545E52A9784600097AAEC /* Assets.xcassets */; };
 		514545E92A9784600097AAEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514545E82A9784600097AAEC /* Preview Assets.xcassets */; };
 		514545F32A9784600097AAEC /* SwiftUIWithUIKitComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514545F22A9784600097AAEC /* SwiftUIWithUIKitComponentsTests.swift */; };
 		514545FD2A9784600097AAEC /* SwiftUIWithUIKitComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514545FC2A9784600097AAEC /* SwiftUIWithUIKitComponentsUITests.swift */; };
 		514545FF2A9784600097AAEC /* SwiftUIWithUIKitComponentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514545FE2A9784600097AAEC /* SwiftUIWithUIKitComponentsUITestsLaunchTests.swift */; };
+		5145460D2A9784A20097AAEC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145460C2A9784A20097AAEC /* Service.swift */; };
+		514546102A9784C70097AAEC /* TMDb in Frameworks */ = {isa = PBXBuildFile; productRef = 5145460F2A9784C70097AAEC /* TMDb */; };
+		514546172A9788890097AAEC /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514546162A9788890097AAEC /* MovieData.swift */; };
+		5154E7C22A97895A006FD0BA /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154E7C12A97895A006FD0BA /* MoviesViewModel.swift */; };
+		5154E7C42A978984006FD0BA /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154E7C32A978984006FD0BA /* MoviesView.swift */; };
+		5154E7C72A978A02006FD0BA /* ImageRequestUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154E7C62A978A02006FD0BA /* ImageRequestUrl.swift */; };
+		519DFC5C2A9E17DE00EFF9B4 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 519DFC5B2A9E17DE00EFF9B4 /* Nuke */; };
+		519DFC5E2A9E17DE00EFF9B4 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 519DFC5D2A9E17DE00EFF9B4 /* NukeExtensions */; };
+		519DFC602A9E17DE00EFF9B4 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 519DFC5F2A9E17DE00EFF9B4 /* NukeUI */; };
+		519DFC622A9E17DE00EFF9B4 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 519DFC612A9E17DE00EFF9B4 /* NukeVideo */; };
+		519DFC642A9E1D7D00EFF9B4 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC632A9E1D7D00EFF9B4 /* DetailMovieViewController.swift */; };
+		519DFC662A9F1D7600EFF9B4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC652A9F1D7600EFF9B4 /* DetailViewModel.swift */; };
+		519DFC682A9F482500EFF9B4 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC672A9F482500EFF9B4 /* MovieModel.swift */; };
+		519DFC6A2A9F483A00EFF9B4 /* DetailMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC692A9F483A00EFF9B4 /* DetailMovieModel.swift */; };
+		519DFC6F2A9F71D800EFF9B4 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC6E2A9F71D800EFF9B4 /* Environment.swift */; };
+		51F9C6D52A98900C00C9A865 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F9C6D42A98900C00C9A865 /* MovieItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		514545DE2A97845F0097AAEC /* SwiftUIWithUIKitComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWithUIKitComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		514545E12A97845F0097AAEC /* SwiftUIWithUIKitComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithUIKitComponentsApp.swift; sourceTree = "<group>"; };
-		514545E32A97845F0097AAEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		514545E52A9784600097AAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		514545E82A9784600097AAEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		514545EE2A9784600097AAEC /* SwiftUIWithUIKitComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWithUIKitComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,19 @@
 		514545F82A9784600097AAEC /* SwiftUIWithUIKitComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWithUIKitComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		514545FC2A9784600097AAEC /* SwiftUIWithUIKitComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithUIKitComponentsUITests.swift; sourceTree = "<group>"; };
 		514545FE2A9784600097AAEC /* SwiftUIWithUIKitComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithUIKitComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5145460C2A9784A20097AAEC /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		514546162A9788890097AAEC /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		5154E7C12A97895A006FD0BA /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		5154E7C32A978984006FD0BA /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		5154E7C62A978A02006FD0BA /* ImageRequestUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRequestUrl.swift; sourceTree = "<group>"; };
+		519DFC632A9E1D7D00EFF9B4 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
+		519DFC652A9F1D7600EFF9B4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		519DFC672A9F482500EFF9B4 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		519DFC692A9F483A00EFF9B4 /* DetailMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieModel.swift; sourceTree = "<group>"; };
+		519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		519DFC6D2A9F6E3500EFF9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		519DFC6E2A9F71D800EFF9B4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		51F9C6D42A98900C00C9A865 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514546102A9784C70097AAEC /* TMDb in Frameworks */,
+				519DFC5C2A9E17DE00EFF9B4 /* Nuke in Frameworks */,
+				519DFC622A9E17DE00EFF9B4 /* NukeVideo in Frameworks */,
+				519DFC5E2A9E17DE00EFF9B4 /* NukeExtensions in Frameworks */,
+				519DFC602A9E17DE00EFF9B4 /* NukeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +126,11 @@
 		514545E02A97845F0097AAEC /* SwiftUIWithUIKitComponents */ = {
 			isa = PBXGroup;
 			children = (
+				519DFC6D2A9F6E3500EFF9B4 /* Info.plist */,
+				519DFC6B2A9F6CDA00EFF9B4 /* Config */,
+				514546112A9784E90097AAEC /* Scenes */,
+				5145460B2A97848E0097AAEC /* Service */,
 				514545E12A97845F0097AAEC /* SwiftUIWithUIKitComponentsApp.swift */,
-				514545E32A97845F0097AAEC /* ContentView.swift */,
 				514545E52A9784600097AAEC /* Assets.xcassets */,
 				514545E72A9784600097AAEC /* Preview Content */,
 			);
@@ -127,6 +162,71 @@
 			path = SwiftUIWithUIKitComponentsUITests;
 			sourceTree = "<group>";
 		};
+		5145460B2A97848E0097AAEC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5145460C2A9784A20097AAEC /* Service.swift */,
+				514546162A9788890097AAEC /* MovieData.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		514546112A9784E90097AAEC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5154E7C52A9789F3006FD0BA /* Utils */,
+				514546152A97850B0097AAEC /* DetailMovieScene */,
+				514546142A9784FD0097AAEC /* MovieListScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		514546142A9784FD0097AAEC /* MovieListScene */ = {
+			isa = PBXGroup;
+			children = (
+				51F9C6D32A988FD000C9A865 /* Views */,
+				5154E7C12A97895A006FD0BA /* MoviesViewModel.swift */,
+				5154E7C32A978984006FD0BA /* MoviesView.swift */,
+				519DFC672A9F482500EFF9B4 /* MovieModel.swift */,
+			);
+			path = MovieListScene;
+			sourceTree = "<group>";
+		};
+		514546152A97850B0097AAEC /* DetailMovieScene */ = {
+			isa = PBXGroup;
+			children = (
+				519DFC632A9E1D7D00EFF9B4 /* DetailMovieViewController.swift */,
+				519DFC652A9F1D7600EFF9B4 /* DetailViewModel.swift */,
+				519DFC692A9F483A00EFF9B4 /* DetailMovieModel.swift */,
+			);
+			path = DetailMovieScene;
+			sourceTree = "<group>";
+		};
+		5154E7C52A9789F3006FD0BA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5154E7C62A978A02006FD0BA /* ImageRequestUrl.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		519DFC6B2A9F6CDA00EFF9B4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */,
+				519DFC6E2A9F71D800EFF9B4 /* Environment.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		51F9C6D32A988FD000C9A865 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51F9C6D42A98900C00C9A865 /* MovieItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +243,13 @@
 			dependencies = (
 			);
 			name = SwiftUIWithUIKitComponents;
+			packageProductDependencies = (
+				5145460F2A9784C70097AAEC /* TMDb */,
+				519DFC5B2A9E17DE00EFF9B4 /* Nuke */,
+				519DFC5D2A9E17DE00EFF9B4 /* NukeExtensions */,
+				519DFC5F2A9E17DE00EFF9B4 /* NukeUI */,
+				519DFC612A9E17DE00EFF9B4 /* NukeVideo */,
+			);
 			productName = SwiftUIWithUIKitComponents;
 			productReference = 514545DE2A97845F0097AAEC /* SwiftUIWithUIKitComponents.app */;
 			productType = "com.apple.product-type.application";
@@ -189,7 +296,7 @@
 		514545D62A97845F0097AAEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
@@ -215,6 +322,10 @@
 				Base,
 			);
 			mainGroup = 514545D52A97845F0097AAEC;
+			packageReferences = (
+				5145460E2A9784C70097AAEC /* XCRemoteSwiftPackageReference "TMDb" */,
+				519DFC5A2A9E17DE00EFF9B4 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 514545DF2A97845F0097AAEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +368,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				514545E42A97845F0097AAEC /* ContentView.swift in Sources */,
+				5154E7C42A978984006FD0BA /* MoviesView.swift in Sources */,
+				519DFC6F2A9F71D800EFF9B4 /* Environment.swift in Sources */,
+				5154E7C72A978A02006FD0BA /* ImageRequestUrl.swift in Sources */,
+				519DFC682A9F482500EFF9B4 /* MovieModel.swift in Sources */,
+				519DFC642A9E1D7D00EFF9B4 /* DetailMovieViewController.swift in Sources */,
 				514545E22A97845F0097AAEC /* SwiftUIWithUIKitComponentsApp.swift in Sources */,
+				519DFC662A9F1D7600EFF9B4 /* DetailViewModel.swift in Sources */,
+				514546172A9788890097AAEC /* MovieData.swift in Sources */,
+				51F9C6D52A98900C00C9A865 /* MovieItem.swift in Sources */,
+				519DFC6A2A9F483A00EFF9B4 /* DetailMovieModel.swift in Sources */,
+				5145460D2A9784A20097AAEC /* Service.swift in Sources */,
+				5154E7C22A97895A006FD0BA /* MoviesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +418,7 @@
 /* Begin XCBuildConfiguration section */
 		514546002A9784600097AAEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -357,6 +479,7 @@
 		};
 		514546012A9784600097AAEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519DFC6C2A9F6CFC00EFF9B4 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -420,6 +543,7 @@
 				DEVELOPMENT_TEAM = 3BH64RUXKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIWithUIKitComponents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +573,7 @@
 				DEVELOPMENT_TEAM = 3BH64RUXKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIWithUIKitComponents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +708,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5145460E2A9784C70097AAEC /* XCRemoteSwiftPackageReference "TMDb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamayoung/TMDb.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		519DFC5A2A9E17DE00EFF9B4 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5145460F2A9784C70097AAEC /* TMDb */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5145460E2A9784C70097AAEC /* XCRemoteSwiftPackageReference "TMDb" */;
+			productName = TMDb;
+		};
+		519DFC5B2A9E17DE00EFF9B4 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519DFC5A2A9E17DE00EFF9B4 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		519DFC5D2A9E17DE00EFF9B4 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519DFC5A2A9E17DE00EFF9B4 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		519DFC5F2A9E17DE00EFF9B4 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519DFC5A2A9E17DE00EFF9B4 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		519DFC612A9E17DE00EFF9B4 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519DFC5A2A9E17DE00EFF9B4 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 514545D62A97845F0097AAEC /* Project object */;
 }
