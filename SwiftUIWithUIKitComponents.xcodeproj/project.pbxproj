@@ -28,6 +28,7 @@
 		519DFC682A9F482500EFF9B4 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC672A9F482500EFF9B4 /* MovieModel.swift */; };
 		519DFC6A2A9F483A00EFF9B4 /* DetailMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC692A9F483A00EFF9B4 /* DetailMovieModel.swift */; };
 		519DFC6F2A9F71D800EFF9B4 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DFC6E2A9F71D800EFF9B4 /* Environment.swift */; };
+		51B361602AA736AD006DEF8B /* NavigationStack+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B3615F2AA736AD006DEF8B /* NavigationStack+Extension.swift */; };
 		51F9C6D52A98900C00C9A865 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F9C6D42A98900C00C9A865 /* MovieItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		519DFC692A9F483A00EFF9B4 /* DetailMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieModel.swift; sourceTree = "<group>"; };
 		519DFC6D2A9F6E3500EFF9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		519DFC6E2A9F71D800EFF9B4 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		51B3615F2AA736AD006DEF8B /* NavigationStack+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationStack+Extension.swift"; sourceTree = "<group>"; };
 		51F9C6D42A98900C00C9A865 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				5154E7C62A978A02006FD0BA /* ImageRequestUrl.swift */,
+				51B3615F2AA736AD006DEF8B /* NavigationStack+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				514546172A9788890097AAEC /* MovieData.swift in Sources */,
 				51F9C6D52A98900C00C9A865 /* MovieItem.swift in Sources */,
 				519DFC6A2A9F483A00EFF9B4 /* DetailMovieModel.swift in Sources */,
+				51B361602AA736AD006DEF8B /* NavigationStack+Extension.swift in Sources */,
 				5145460D2A9784A20097AAEC /* Service.swift in Sources */,
 				5154E7C22A97895A006FD0BA /* MoviesViewModel.swift in Sources */,
 			);

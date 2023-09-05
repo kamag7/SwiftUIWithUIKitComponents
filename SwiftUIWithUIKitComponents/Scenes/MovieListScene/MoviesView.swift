@@ -10,10 +10,6 @@ import SwiftUI
 struct MoviesView: View {
     @StateObject var viewModel = MoviesViewModel()
 
-    init() {
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
-    }
-
     var body: some View {
         NavigationStack {
             List(viewModel.movies, id: \.id) { movie in
@@ -26,7 +22,7 @@ struct MoviesView: View {
                     DetailView(viewModel: DetailViewModel(movie: detailMovie))
                         .background(.black)
                 } label: {
-                    SwiftUICell(movie: movie)
+                    MovieItemView(movie: movie)
                         .frame(height: 112)
                 }
                 .navigationTitle("Movies")
@@ -46,6 +42,7 @@ struct MoviesView: View {
             .background(.black)
             .scrollContentBackground(.hidden)
         }
+        .updateForegroundColor(to: .white)
     }
 }
 

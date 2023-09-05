@@ -127,7 +127,7 @@ class MovieItem: UIView {
     }
 }
 
-struct SwiftUICell: UIViewRepresentable {
+struct MovieItemView: UIViewRepresentable {
 
     var movieItem: MovieItem
     init(movie: MovieModel) {
